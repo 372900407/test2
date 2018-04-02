@@ -1,0 +1,65 @@
+.loan-detail{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #e75146;
+	background: #fff;
+	display: none;
+	padding: 0 13px;
+	padding-top: 10px;
+	padding-bottom: 110px;
+	min-width: 100px;
+}
+.loan-close{
+	position: absolute;
+	right: 25px;
+	top: 24px;
+	width: 18px;
+	height: 18px;
+	background:url(../images/newCopyRight/user/loan-close.png) no-repeat center center ;
+	background-size:contain ;
+}
+.loan-formula{
+	font-size: 16px;
+	color: #232323;
+	line-height: 37px;
+}
+.loan-formula span{
+	color: #e75146;
+}
+.formula-space{
+	width: 50px;
+	text-align: center;
+}
+.user-table td,.user-table td a{
+	color: #999999;
+	max-width: 170.4px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.loan-table{
+	margin-top: 10px;
+}
+.loan-table td,.loan-table td a{
+	max-width: 125.5714285px!important;
+}
+.coupon-content1{
+	width: 117px;
+	margin: 0 auto;
+	margin-top: 126px;
+}
+.content1-img{
+	width: 117px;
+	height: 116px;
+	background: url(../images/newCopyRight/interest/noData.png) no-repeat center center;
+	background-size:contain ;
+}
+.content1-text{
+	font-size: 16px;
+	color: #999999;
+	margin-top: 28px;
+	width: 100%;
+	text-align: center;
+}

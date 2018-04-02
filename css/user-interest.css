@@ -1,0 +1,118 @@
+.user-content {
+	background: #eff4f7;
+}
+
+.user-content>div {
+	background: #fff;
+	border-radius: 2px;
+}
+
+.interest-tab {
+	width: 100%;
+	height: 88px;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 0 77px;
+	overflow: hidden;
+}
+
+.interest-tab>li {
+	float: left;
+	margin-right: 206px;
+}
+
+.interest-tab>li>a {
+	font-size: 18px;
+	line-height: 88px;
+	width: 90px;
+	height: 88px;
+	display: block;
+	color: #232323;
+	position: relative;
+	text-align: center;
+}
+.interest-tab>li>a:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #c82126;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.interest-tab>li>a:hover:after,.interest-tab>.current a:after{
+	bottom:0px;
+}
+.coupon-tab {
+	width: 100%;
+	border-bottom: 1px solid #e7e7e7;
+}
+.coupon-tab a{
+	display: block;
+	font-size: 16px;
+	color: #999999;
+	line-height: 67px;
+	width: 148px;
+	text-align: center;
+	border-collapse: collapse;
+}
+.coupon-tab a:hover,.coupon-tab-current a{
+	color: #232323;
+	border-bottom: 2px solid #e75146;
+}
+.coupon-tab>li{
+	float: left;
+}
+.coupon-list{
+	width: 784px;
+	margin: 0 auto;
+}
+.coupon-content1{
+	width: 117px;
+	margin: 0 auto;
+	margin-top: 126px;
+}
+.content1-img{
+	width: 117px;
+	height: 116px;
+	background: url(../images/newCopyRight/interest/noData.png) no-repeat center center;
+	background-size:contain ;
+}
+.content1-text{
+	font-size: 16px;
+	color: #999999;
+	margin-top: 28px;
+	width: 100%;
+	text-align: center;
+}
+.user-tab{
+	 min-height: 543px;
+}
+.user-table td,.user-table td a{
+	color: #999999;
+	max-width: 140.16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.user-table{
+	display: none;
+}
+.coupon-tab a {
+    display: block;
+    font-size: 16px;
+    color: #999999;
+    line-height: 68px;
+    width: 148px;
+    text-align: center;
+    border-collapse: collapse;
+}

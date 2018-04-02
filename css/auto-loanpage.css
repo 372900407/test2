@@ -1,0 +1,123 @@
+.modify-area {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    /* padding: 24px 0 24px 0; */
+    position: relative;
+    line-height: 24px;
+    overflow: hidden;
+}
+.modify-list dt, .modify-list dd {
+    font-weight: normal;
+}
+.modify-layout {
+    width: 92.1818%;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 14px;
+}
+.modify-tip {
+    margin-top: 36px;
+    line-height: 100%;
+}
+.modify-form {
+    line-height: 40px;
+    margin-top: 51px;
+}
+.modify-desBox {
+    padding: 30px 0 30px 0px;
+    position: relative;
+}
+.modify-tip span {
+    color: #232323;
+}
+.modify-tr {
+    height: 42px;
+}
+.modify-tr > td:first-child {
+    text-align: right;
+    padding-right: 16px;
+}
+.modify-form td {
+    padding: 8px 0px;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+label {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+input[type=submit], input[type=text], input[type=password] {
+    outline: none;
+    border: none;
+}
+
+.modify-province, .modify-city, .modify-telCpt, .modify-psw-telCpt, .modify-fb-telCpt {
+    width: 143px;
+}
+.modify-bank, .modify-netShop, .modify-cardNum, .modify-confirm, .modify-province, .modify-city, .modify-telCpt, .modify-certificate, .modify-telNum, .modify-oldPsw, .modify-newPsw, .modify-confirmPsw, .modify-tradePsw, .modify-confirmTradePsw, .modify-accName, .modify-psw-telCpt, .modify-protoPsw, .modify-newTradePsw, .modify-confirm-newTradePsw, .modify-fb-telCpt, .modify-idNum {
+    width: 300px;
+    border: 1px #d8d8d8 solid!important;
+    -webkit-border-radius: 2px!important;
+    -moz-border-radius: 2px!important;
+    border-radius: 2px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.sendcode1 {
+    padding: 0;
+}
+.sendcode, .sendcode1 {
+    width: 143px;
+    border: 1px solid #d3d3d3;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    display: block;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.btn.submit-btn {
+    font-size: 14px;
+    padding: 10px 23px;
+}
+.btn.submit-btn {
+    border: none;
+    background-color: #ff5950;
+    color: #ffffff;
+    font-size: 14px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.modify-province, .modify-city, .modify-telCpt, .modify-psw-telCpt, .modify-fb-telCpt {
+    width: 143px;
+}
+#v_container{
+	display: none;
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="zh-cmn-Hans">
+
+		<meta charset="UTF-8">
+
+		<title>[国富通]邀请好友</title>
+
+		<meta name="keywords" content="国富通,国富通P2P,网上投资,投资理财,网络借贷, 融资借贷 ,网上理财,安全理财">
+
+		<meta name="description" content="国富通—安全，专业的网络借款、理财平台。提供便捷、安全、低门槛的个人理财和抵押、信用贷款服务。国富通以稳健的风控和专业的团队，为投资者提供年化收益高达18-24%的网上理财服务。对接投资信息与融资需求，致力于建设中国唯一高效互联网金融工具。">
+
+		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="css/commonV3.css">
+		<link rel="stylesheet" type="text/css" href="css/accountV3.css" />
+		<link rel="stylesheet" type="text/css" href="css/skin/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/user-invite.css" />
+		<script src="js/vendor/modernizr.custom.31843.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<style>
+			.invite-table{
+				position: relative;
+			}
+			.pagination2-list {
+			     margin-top: 0px; 
+			}
+			
+			.pagination2-list {
+			     margin-right: 0px; 
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--是否为用户中心-->
+		<input type="hidden" name="isPerson" id="isPerson" value="true" />
+		<!--是否绑定手机-->
+		<input type="hidden" name="isPhone" id="isPhone" value="true" />
+		<!--是否实名-->
+		<input type="hidden" name="isAuthen" id="isAuthen" value="false" />
+		<!--是否绑定银行卡-->
+		<input type="hidden" name="isBank" id="isBank" value="false" />
+		<header id="header">
+
+			<div class="header-top">
+
+				<div class="layout clear-fix">
+
+					<p class="hot-line">客服热线：4000-360-995（工作日9:00-18:00）</p>
+
+					<ul class="followus">
+
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns qq">
+								<div class="social-content" style="display: none;">
+									<p class="social-title">国富通官方QQ群</p>
+									<p>官方一群：339103562</p>
+									<p>官方二群：229094780</p>
+								</div>
+							</a>
+
+						</li>
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns weixin">
+
+								<div class="social-content" style="display: none;">
+
+									<p class="social-title">扫描关注微信公众号</p>
+
+									<p><img src="images/wechat2.png"></p>
+
+								</div>
+
+							</a>
+
+						</li>
+						<li>
+
+							<a href="http://weibo.com/gftp2p" target="_blank" class="icon-sns weibo"></a>
+
+						</li>
+
+					</ul>
+					<ul class="header-top-r">
+
+						<li class="lists" id="list">
+							<a href="javascript:void(0)" style="margin-right: 15px;">尊敬的【150****8297】欢迎您 !</a>
+							<a class="lists-l" href="javascript:void(0)">安全退出</a>
+							<!--<a class="lists-l" id="name-list" href="http://www.gftbank.cn/login.html">登录 </a>-->
+						</li>
+						<!--<li class="lists">
+							<a class="lists-l" href="/reg.html">注册</a>
+						</li>-->
+						<li class="lists list3">
+							<a href="javascript:void(0)">手机APP
+								<div class="app-banner">
+									<div class="banner-img">
+										<img src="images/wechatApp.png" />
+									</div>
+									<div class="banner-detail">
+										app客户端下载
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="lists ">
+							<a href="/aboutus.html">帮助中心</a>
+						</li>
+						<li class="lists list-last">
+							<a href="/guide.html">新手指引</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="layout header-logoWrap">
+
+				<div class="header-navWrap">
+
+					<nav class="header-nav">
+						<ul>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="index.html">首页</a>
+							</li>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="/invest.html">我要投资</a>
+							</li>
+
+							<li class="lists  ">
+								<a class="lists-l lists-dot" href="safety.html">安全措施</a>
+							</li>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="/safety.html">信息披露</a>
+							</li>
+
+							<li class="lists  current">
+								<a class="lists-l" href="http://www.gftbank.cn/login.html">我的账户</a>
+							</li>
+
+						</ul>
+
+					</nav>
+
+				</div>
+
+				<h1>
+
+            <a href="/"><img src="images/logo.png" title="国富通" alt="国富通logo"></a>
+
+        </h1>
+			</div>
+		</header>
+		<div class="user-section">
+			<input type="hidden" name="urlVal" id="urlVal" value="https://www.gftbank.cn/" />
+			<div class="layout">
+				<div class="user-nav">
+					<div class="nav-list1">
+						<div class="nav-icon">
+							<img src="images/newCopyRight/user/74x74.png" />
+						</div>
+						<div class="nav-person">
+							<div class="person-name">您好！131****0485</div>
+							<!--images/newCopyRight/user/vip1.png是普通会员路径；images/newCopyRight/user/vip2.png是特权会员-->
+							<div class="person-vip">会员等级：VIP
+								<div class="vip-icon"><img src="images/newCopyRight/user/vip1.png" /></div>
+							</div>
+						</div>
+					</div>
+					<!--跳转到账户设置页面-->
+					<ul class="nav-list2">
+						<li>
+							<a href="javascript:void(0)" class="nav-status1"></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="nav-status2"></a>
+						</li>
+						<li class="li-last">
+							<a href="javascript:void(0)" class="nav-status3"></a>
+						</li>
+					</ul>
+					<div class="nav-line"></div>
+					<ul class="nav-lists">
+						<li class="list-col ">
+							<a class="col-link col-acc" href="/user-index.html">账户总览</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-mng" href="javascript:void(0)">账户设置</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ive" href="javascript:void(0)">我的投资</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ivi" href="javascript:void(0)">我的卡券</a>
+						</li>
+						<li class="list-col current">
+							<a class="col-link col-quan" href="javascript:void(0)">邀请好友</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-msg" href="javascript:void(0)">消息中心</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-loan" href="javascript:void(0)">我的借款</a>
+						</li>
+					</ul>
+				</div>
+				<div class="user-content">
+					<div class="invite-section1">
+						<div class="invite-banner">
+							<div class="banner-text">
+								<div class="banner-bold">佣金计算</div>
+								<div class="banner-content">1.好友收益的8%推荐奖励将在好友回款后24小时内发放至您的账户<br/>2.好友成为国富通VIP会员24小时内可获得10元现金奖励</div>
+							</div>
+						</div>
+						<div class="invite-table">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr class="first-tr">
+									<th>被邀请人</th>
+									<th>注册时间</th>
+									<th>投资总额（元）</th>
+									<th>赚取佣金（元）</th>
+								</tr>
+								<tr>
+									<td>hsykfsd474</td>
+									<td>2017-06-30</td>
+									<td>15241.00</td>
+									<td>31.29</td>
+								</tr>
+								<tr>
+									<td>hsykfsd474</td>
+									<td>2017-06-30</td>
+									<td>15241.00</td>
+									<td>31.29</td>
+								</tr>
+								<tr>
+									<td>hsykfsd474</td>
+									<td>2017-06-30</td>
+									<td>15241.00</td>
+									<td>31.29</td>
+								</tr>
+								<tr>
+									<td>hsykfsd474</td>
+									<td>2017-06-30</td>
+									<td>15241.00</td>
+									<td>31.29</td>
+								</tr>
+							</table>
+							<ul class="pagination2-list">
+								<li class="pagination2-index pagination2-icon">
+									<a href="javascript:void(0)"></a>
+								</li>
+								<li class="pagination2-text"><span id="pageon">1</span> / 18</li>
+								<li class="pagination2-icon pagination2-up">
+									<a href="javascript:void(0)"></a>
+								</li>
+								<li class="pagination2-icon pagination2-down li-last">
+									<a href="javascript:void(0)"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="invite-status">
+							<div class="status-top"></div>
+							<ul class="status-content">
+								<li>
+									<div class="status-img status-img1">
+									</div>
+									<div class="status-thing">
+										<span>6</span>人
+									</div>
+									<div class="status-text">历史邀请人数</div>
+								</li>
+								<li>
+									<div class="status-img status-img2">
+									</div>
+									<div class="status-thing">
+										<span>26.5</span>元
+									</div>
+									<div class="status-text">已赚取佣金</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="invite-section2">
+						<div class="section2-title">邀请方式</div>
+						<div class="invite-way-content">
+							<div class="way-icon"></div>
+							<div class="way-text way-one">邀请方式一：<span>复制链接邀请好友</span></div>
+							<div class="way-form">
+								<input type="text" readonly="readonly" name="way-href" id="way-href" value="http://www.gftbank.cn/reg.html?tjuid=22607" />
+								<a class="copyHref" id = "copyHref" href="javascript:void(0)">复制链接</a>
+							</div>
+							<div class="invite-way-artcle">
+								<ul class="invite-way-twoThree">
+									<li>
+										<div class="way-text way-two">邀请方式二：<span>分享给好友</span></div>
+										<ul class="share-list">
+											<li>
+												<a id = "weibo" href = "javascript:void(0)">
+													<div class = "share-img share-img1"></div>
+													<div class = "share-text">微博</div>
+												</a>
+											</li>
+											<li>
+												<a href = "javascript:void(0)" id = "doubian">
+													<div class = "share-img share-img2"></div>
+													<div class = "share-text">豆瓣</div>
+												</a>
+											</li>
+											<li class = "li-last">
+												<a href = "javascript:void(0)" id = "qqBtn">
+													<div class = "share-img share-img3"></div>
+													<div class = "share-text">QQ空间</div>
+												</a>
+											</li>
+										</ul>
+									</li>
+									<!--2017/9/4-->
+									<li class="li-last">
+										<div class="way-text way-three">邀请方式三：<span>用手机扫描二维码分享给好友</span></div>
+										<div class="moblie-download">
+											<div class="moblie-ewm">
+												<div class="ewm-img">
+													<img src="images/newCopyRight/invite/ewm.jpg" />
+												</div>
+												<div class = "ewm-text">app下载</div>
+											</div>
+											<div class="download-btn-group">
+												<!--<a href="javascript:void(0)" class="download-btn download-btn1"></a>
+												<a href="javascript:void(0)" class="download-btn download-btn2"></a>-->
+												<div class="ewm-img2" id = "qrcode">
+													 <div id="codeico"></div>
+												</div>
+												<div class = "ewm-text">分享注册</div>
+											</div>
+										</div>
+									</li>
+									<!--2017/9/4-->
+								</ul>
+								<div class="recommended">
+									<div class="recommended-left">
+										<input  class="recommended-code" type="text" readonly="readonly" name="recommended-code" id="recommended-code" value="PSLQ6" />
+										<div class="recommended-detail">专属邀请码</div>
+									</div>
+									<div class="recommended-text">好友注册时填写您的邀请码，自动与您的账号关联，当他完成有效认购，您可获得相应奖励！</div>
+									<a class="recommended-copy" id = "recommended-copy" href="javascript:void(0)">复制推荐码</a>
+								</div>
+							</div>
+
+						</div>
+						<div class = "rule-text">
+							<div class = "rule-title">活动规则</div>
+							<ul class = "rule-content">
+								<li>1、 用户登录后点击“我的账户”—“邀请好友”—查看自己的邀请二维码、邀请链接和专属邀请码可通过上述四种方式邀请自己的好友注册投资。被邀请好友投资成功后用户可获得相应佣金奖励；</li>
+								<li>2、 被邀请好友投资后，用户可获得被邀请好友投资收益的8%作为佣金奖励，好友成为VIP再奖10元奖励将在被邀请好友每次获得收益后24小时内由系统同步发放至用户账户中；</li>
+								<li>3、 用户可通过官网、APP、等各种渠道参与邀请好友活动，邀请的好友投资越多，收益越多，上不封顶；</li>
+								<li>4、 如发现有利用系统漏洞、技术手段等恶意刷奖行为的用户，国富通有权取消其活动资格，所有奖励不予承兑；</li>
+								<li>5、 本次活动的最终解释权归国富通所有。</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<footer id="footer">
+			<div class="footer-content">
+				<div class="layout footer-frame clear-fix">
+					<div class="footer-banner1 footer-banner">
+						<div class="footer-title1 footer-title">客服热线</div>
+						<div class="footer-banner1-text">
+							客服热线400-360-995（工作时间 9:00-18:00）<br/> 客服邮箱（kefu@yooli.com）
+							<br/> 广东省深圳市福田区彩田路瀚森大厦15A
+							<br/>
+						</div>
+						<a class="resume-btn" href="javascript:void(0)"></a>
+					</div>
+					<div class="footer-banner2 footer-banner">
+						<ul>
+							<li class="footer-title">
+								信息披露
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									平台公告
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									媒体报道
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									诚聘英才
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									联系我们
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li class="footer-title">
+								安全保障
+							</li>
+							<li>
+								<a href="safety.html#section6">
+									法律保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section2">
+									实力保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section5">
+									技术保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section3">
+									资金保障
+								</a>
+							</li>
+						</ul>
+						<ul class="li-last">
+							<li class="footer-title">
+								帮助中心
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									常见问题
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									新手指引
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									借款流程
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer-banner3 footer-banner">
+						<li>
+							<div class="app-ewm ewm">
+								<img src="images/newCopyRight/app.jpg" />
+							</div>
+							<div class="ewm-detail">APP客户端下载</div>
+						</li>
+						<li class="li-last">
+							<div class="wechat-ewm ewm">
+								<img src="images/newCopyRight/wechat.jpg" />
+							</div>
+							<div class="ewm-detail">国富通微信公众号</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="footerlogo layout">
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo1.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo2.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo3.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo4.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo5.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo6.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="layout footer-copyright">
+				<p class="footer-cent">
+					<a class="cent1" href="http://www.miitbeian.gov.cn" target="_blank">Copyright © 2014-2015备案号：粤ICP备14038056号-1</a>
+					<a href="javascript:void(0)" class="cent2">深圳前海国富通电子商务有限公司 </a>
+				</p>
+			</div>
+		</footer>
+		<!--尾部-->
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/require.js" data-main="js/app/user-invite"></script>
+
+</html>

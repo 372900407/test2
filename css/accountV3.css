@@ -1,0 +1,258 @@
+.user-section{
+	width: 100%;
+	padding: 20px 0px 40px 0px;
+	background: #eff4f7;	
+}
+.user-nav{
+	width: 300px;
+	float: left;
+	background: #fff;
+	font-size: 16px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.user-content{
+	width: 879px;
+	min-height: 653px;
+	float: right;
+	background: #fff;
+	border-radius: 2px;
+}
+.nav-list1{
+	width: 100%;
+	height:155px ;
+	background: #409af7;
+	padding: 42px 25px;
+}
+.nav-list1>div{
+	float: left;
+}
+.nav-icon{
+	width: 74px;
+	height: 74px;
+	border-radius: 100%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.nav-icon>img{
+	width: 100%;
+}
+.nav-person{
+	font-size: 15px;
+	color: #fff;
+	line-height: 32px;
+}
+.vip-icon{
+	display: inline-block;
+	width: 13px;
+	margin-left: 1px;
+}
+.nav-list2{
+	width: 100%;
+	height: 87px;
+	padding-left: 35px;
+}
+.nav-list2>li{
+	float: left;
+	margin-right: 50px;
+	margin-top: 17px;
+}
+.nav-list2>li>a{
+	width: 100%;
+	width: 43px;
+	height: 43px;
+	display: block;
+	background-image: url(../images/newCopyRight/user/user-status.png);
+	background-repeat:no-repeat ;
+}
+.nav-status1{
+	background-position:left bottom;
+}
+.nav-status2{
+	background-position:50% bottom;
+}
+.nav-status3{
+	background-position:right bottom;
+}
+.nav-line{
+	width: 100%;
+	height: 12px;
+	background: url(../images/newCopyRight/user/the-line.png) no-repeat center center;
+	background-size:contain ;
+}
+.user-list{
+	width: 100%;
+}
+.user-list>li>a{
+	width: 100%;
+	line-height:57px ;
+}
+.nav-lists .col-link:before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/newCopyRight/user/user-nav.png);
+    background-repeat:no-repeat ;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 24px;
+    top: 18px;
+}
+.nav-lists .col-link {
+    display: block;
+    height: 57px;
+    color: #666666;
+    line-height: 57px;
+    padding-left: 58px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    border-bottom: 1px solid #eff4f7;
+}
+.nav-lists .current .col-link, .nav-lists .col-link:hover {
+    color: #ff5950;
+}
+.nav-lists .col-link:hover {
+    margin-left: 12px;
+    text-decoration: none;
+}
+/*2017/12/12*/
+.col-acc:before{
+	background-position:left 2px ;
+}
+.col-mng:before{
+	background-position:left -55px;
+}
+.col-ive:before{
+	background-position:left -112px ;
+}
+.col-ivi:before{
+	background-position:left -169px;
+}
+.col-quan:before{
+	background-position:left -223px;
+}
+.col-msg:before{
+	background-position:left -280px ;
+}
+.col-loan:before{
+	background-position:left -343px ;
+}
+.col-test:before{
+	background-position:left bottom ;
+}
+/*2017/12/12*/
+.nav-lists .current .col-link:before, .nav-lists .col-link:hover:before {
+    background-position-x: right;
+}
+/*右边内容区*/
+.user-title{
+	width: 100%;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0 20px;
+	height: 70px;
+}
+.user-title h2{
+	color: #232323;
+	line-height: 70px;
+	font-size: 16px;
+}
+.user-table{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.user-table th{
+	text-align: left;
+	color: #666666;
+	background: #eff4f7;
+}
+
+.user-table tr:hover td,.user-table tr:hover a{
+	color: #232323;
+}
+.user-table td,.user-table th{
+	line-height: 47px;
+	height: 47px;
+	padding-left: 20px;
+}
+.user-table td{
+	border-bottom: 1px dashed #e7e7e7;	
+}
+.pagination2-list{
+    position: absolute;
+    right: 19px;
+    bottom: 33px;
+}
+.pagination2-list>li{
+	float: left;
+	margin-right: 13px;
+	line-height: 31px;
+	font-size: 14px;
+	color: #666666;
+}
+.pagination2-icon a{
+	width: 31px;
+	height: 31px;
+	display: block;
+	background-image:url(../images/newCopyRight/user/pagnation.png) ;
+	background-repeat:no-repeat ;
+}
+.pagination2-index a{
+	background-position:left top ;
+}
+.pagination2-up a{
+	background-position:70% top ;
+}
+.pagination2-down a{
+	background-position:right top ;
+}
+.user-article{
+	width: 100%;
+	min-height: 595px;
+	position: relative;
+	padding: 0 19px;
+	padding-bottom: 95px;
+	padding-top: 16px;
+}
+
+.coupon-content1{
+	width: 117px;
+	margin: 0 auto;
+	margin-top: 126px;
+}
+.content1-img{
+	width: 117px;
+	height: 116px;
+	background: url(../images/newCopyRight/interest/noData.png) no-repeat center center;
+	background-size:contain ;
+}
+.content1-text{
+	font-size: 16px;
+	color: #999999;
+	margin-top: 28px;
+	width: 100%;
+	text-align: center;
+}
+.coupon-content1{
+	width: 117px;
+	margin: 0 auto;
+	margin-top: 126px;
+}
+.content1-img{
+	width: 117px;
+	height: 116px;
+	background: url(../images/newCopyRight/interest/noData.png) no-repeat center center;
+	background-size:contain ;
+}
+.content1-text{
+	font-size: 16px;
+	color: #999999;
+	margin-top: 28px;
+	width: 100%;
+	text-align: center;
+}

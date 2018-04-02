@@ -1,0 +1,159 @@
+.col {
+	width: 150px;
+}
+
+th {
+	width: 120px;
+}
+
+#packettable td {
+	height: 46px;
+}
+
+#packettable tr .td {
+	width: 100%;
+	border-left: 1px solid #e8e8e8;
+}
+
+#packettable tr:nth-child(5) {
+	border-bottom: 0px;
+}
+
+.last-td {
+	border-left: 0px;
+	color: #ff5950;
+}
+
+.usered .td {
+	color: #999999!important;
+}
+
+
+/*增加*/
+
+.white-img {
+	width: 68px;
+	margin: 0 auto;
+}
+
+.white-detail {
+	line-height: 100%;
+}
+
+.white-col1 {
+	line-height: 83px!important
+}
+
+.white-detail {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.col-link1:before {
+	opacity: 0;
+}
+
+.left-pagination {
+	width: 100%;
+	margin-top: 41px;
+}
+
+.pagination-content {
+    width: auto;
+    display: table;
+    float: right;
+    margin-right: 28px;
+}
+
+.left-prev {
+	width: 24px;
+	height: 22px;
+	margin-left: 0px!important;
+	background: #f1f1f1;
+	border-radius: 2px;
+	position: relative;
+}
+
+.prev-tra {
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 8px solid #999999;
+	border-bottom: 7px solid transparent;
+}
+
+.prev-tra1 {
+	position: absolute;
+	left: 3px;
+	top: -7px;
+	border-top: 7px solid transparent;
+	border-right: 8px solid #f1f1f1;
+	border-bottom: 7px solid transparent;
+}
+
+.left-next {
+	width: 24px;
+	height: 22px;
+	background: #f1f1f1;
+	border-radius: 2px;
+	position: relative;
+}
+
+.next-tra {
+	position: absolute;
+	right: 7px;
+	top: 4px;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 8px solid #999999;
+	border-bottom: 7px solid transparent;
+}
+
+.next-tra1 {
+	position: absolute;
+	right: 3px;
+	top: -7px;
+	border-top: 7px solid transparent;
+	border-left: 8px solid #f1f1f1;
+	border-bottom: 7px solid transparent;
+}
+
+.pagination-content a,
+.pagination-content p {
+	text-align: center;
+	width: 24px;
+	height: 22px;
+	line-height: 22px;
+	background: #f1f1f1;
+	border-radius: 2px;
+	font-size: 16px;
+	color: #ff5950;
+	float: left;
+	margin-left: 7px;
+}
+
+.page-count:hover {
+	background: #ff5950;
+	color: #fff7f7;
+}
+
+.left-prev:hover .prev-tra {
+	border-right: 8px solid #333333;
+}
+
+.left-next:hover .next-tra {
+	border-left: 8px solid #333333;
+}
+
+.current1 {
+	color: #000;
+}
+
+
+/*修改*/

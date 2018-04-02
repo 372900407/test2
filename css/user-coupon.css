@@ -1,0 +1,224 @@
+.coupon-tab {
+	width: 100%;
+	border-bottom: 1px solid #e7e7e7;
+}
+.coupon-tab a{
+	display: block;
+	font-size: 16px;
+	color: #999999;
+	line-height: 67px;
+	width: 148px;
+	text-align: center;
+	border-collapse: collapse;
+}
+.coupon-tab a:hover,.coupon-tab-current a{
+	color: #232323;
+	border-bottom: 2px solid #e75146;
+}
+.coupon-tab>li{
+	float: left;
+}
+.coupon-list{
+	width: 784px;
+	margin: 0 auto;
+}
+.coupon-rule{
+	width: 100%;
+	text-align: right;
+}
+.coupon-rule>a{
+	font-size: 16px;
+	color: #999999;
+	line-height: 79px;
+}
+.coupon-content>li {
+    float: left;
+    margin-right: 44px;
+    margin-bottom: 44px;
+    width: 232px;
+    height: 282px;
+    cursor: pointer;
+}
+.coupon-content>li>a>div {
+	margin-top: 10px;
+	word-break: break-all;
+	padding: 0 10px;
+}
+.coupon-content>li{
+	padding: 0 15px;
+}
+.redbags-if{
+	width: 200px;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 16px;
+	bottom:11px;
+	border-top:1px dashed #fff ;
+}
+.redbags{
+	background: url(../images/newCopyRight/invest/redbags1.png) no-repeat center center;
+	background-size:contain ;
+	position: relative;
+}
+.redbags .redbags-title{
+	display: none;
+}
+.redbags>div{
+	color:#fff;
+}
+.redbags .redbags-money{
+	width: 88px;
+	height: 88px;
+	border-radius: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 19px;
+	line-height: 88px;
+	font-size: 36.67px;
+	font-weight: bold;
+	background: #fff;
+}
+.redbags .redbags-money>span{
+	color:#e75146;
+}
+.redbags .redbags-date{
+	margin-top: 15px;
+}
+.redbags .redbags-if{
+	bottom:0px;
+	border-top: 1px dashed #fff;
+}
+.redbags .redbags-ed{
+	margin-top: 8px;
+}
+
+.redbagsed1{
+	background: url(../images/newCopyRight/invest/redbagsed1.png) no-repeat center center;
+	background-size:contain ;
+}
+.redbagsed1 div{
+	color:#fff;
+}
+.redbagsed1 .redbags-money>span{
+	color:#fff;
+}
+.redbagsed1 .redbags-money{
+	background: #d8d8d8;
+}
+.redbagsed1 .redbags-if{
+	border-top: 1px dashed #fff;
+}
+
+.rate{
+	background: url(../images/newCopyRight/invest/redbags2.png) no-repeat center center;
+	background-size:contain ;
+	position: relative;
+}
+.rate>div{
+	color:#fff;
+}
+.rate .redbags-title{
+	font-size:14px ;
+	margin-top: 15px;
+}
+.rate .redbags-money{
+	font-size:45px ;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.rate .redbags-if{
+	border-top: 1px dashed #fff;
+}
+
+
+.rateed div{
+	color:#fff!important;
+}
+.rateed{
+	background: url(../images/newCopyRight/invest/redbagsed2.png) no-repeat center center;
+	background-size:contain ;
+}
+.rateed>.redbags-if{
+	border-top: 1px dashed #fff;
+}
+
+.investment{
+	background: url(../images/newCopyRight/invest/redbags3.png) no-repeat center center;
+	background-size:contain ;
+	position: relative;
+}
+.investment div{
+	color:#ff6f6f;
+}
+.investment .redbags-title{
+	font-size:14px ;
+	margin-top: 15px;
+}
+.investment .redbags-money{
+	font-size:45px ;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.investment .redbags-if{
+	border-top: 1px dashed #ff6f6f;
+}
+
+.investmented div{
+	color:#fff!important;
+}
+.investmented{
+	background: url(../images/newCopyRight/invest/redbagsed3.png) no-repeat center center;
+	background-size:contain ;
+}
+.investmented .redbags-if{
+	border-top: 1px dashed #fff;
+}
+.coupon-content a:hover{
+	color: #fff;
+}
+.coupon-content a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.redbags a:hover .redbags-money span{
+	color: #e75146;
+}
+.redbagsed1 a:hover .redbags-money span{
+	color: #fff;
+}
+.coupon-content1{
+	width: 117px;
+	margin: 0 auto;
+	margin-top: 126px;
+}
+.content1-img{
+	width: 117px;
+	height: 116px;
+	background: url(../images/newCopyRight/user/noCoupon.png) no-repeat center center;
+	background-size:contain ;
+}
+.content1-text{
+	font-size: 16px;
+	color: #999999;
+	margin-top: 28px;
+	width: 100%;
+	text-align: center;
+}
+.pagination2-list{
+	margin-top: 0px;
+}
+.user-content{
+	padding-bottom: 50px;
+}
+.layui-layer-content{
+	color: #232323;
+	padding: 10px;
+}
+.redbags-money>span{
+	white-space: nowrap;
+}

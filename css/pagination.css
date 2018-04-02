@@ -1,0 +1,36 @@
+.pagination{
+	display: table;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+.pagination>li{
+	float: left;
+	margin-right: 19px;
+}
+.pre-next{
+	width: 36px;
+	height: 36px;
+	background-image: url(../images/newCopyRight/pagantion.png) ;
+	background-repeat:no-repeat ;
+	display: block;
+}
+.pre{
+	background-position:left top ;
+}
+.next{
+	background-position:right top ;
+}
+.pagination>li>a{
+	font-size: 14px;
+	color: #999999;
+	line-height: 36px;
+}
+.pagination>li>a:hover{
+	color: #000000;
+}
+.pre-next:hover{
+	background-position-y: bottom;
+}
+.dot{
+	margin-top: 8px;
+}

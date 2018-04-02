@@ -1,0 +1,118 @@
+
+.history-title {
+	font-size: 16px;
+	color: #232323;
+	line-height: 57px;
+	height: 57px;
+	border-bottom: 1px solid #e7e7e7;
+	padding-left: 19px;
+}
+
+.input-group {
+	width: 230px;
+	height: 30px;
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+.form-control {
+	height: 30px;
+	padding: 3px 12px;
+}
+
+.date-icon {
+	width: 18px;
+	height: 18px;
+	background: url(../images/newCopyRight/message/date-icon.png) no-repeat center center;
+	background-size: cover;
+	float: left;
+	margin-top: 5px;
+}
+
+.input-group input {
+	background: #fff!important;
+	float: left;
+}
+
+.submit-btn {
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 17px;
+	background: #e75146;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+.history-form {
+	float: right;
+	padding-bottom: 20px;
+}
+
+.history-form>* {
+	float: left;
+}
+
+.history-form label {
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.daterangepicker .ranges {
+	width: 100%;
+}
+.user-article{
+	float: right;
+}
+.user-table td,
+.user-table td a {
+	max-width: 210px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*boot*/
+body {
+	font-family: "microsoft yahei"!important;
+	/*color: #333;*/
+}
+.daterangepicker .calendar th,
+.daterangepicker .calendar td {
+	color: #333;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+	background-color: #357ebd;
+	border-color: #3071a9;
+	color: #fff;
+}
+.daterangepicker td.disabled {
+    color: #999;
+}
+.daterangepicker td.off {
+    color: #999;
+}
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+h1 {
+    line-height: 84px;
+}
+form:after {
+    content: '';
+    display: table;
+    clear: both;
+}

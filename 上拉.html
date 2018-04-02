@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			#last-li{
+				margin: 500px 0 0 100px;
+				position: relative;
+				background: #eee;
+				width: 100px;
+				line-height: 30px;
+				height: 30px;
+			}
+			.up-list{
+				position: absolute;
+				right:30px ;
+				bottom:14px;
+				display: none;
+			}
+			.up-list>li{
+				line-height: 25px;
+				height: 25px;
+				border-bottom: 1px solid #fff;
+				padding: 0 30px;
+				background: #292929;
+				list-style-type: none;
+			}
+			.up-list>li:last-child{
+				border-bottom:0px!important ;
+			}
+			.up-list>li>a{
+				width: 100%;
+				height: 100%;
+				display: block;
+				font-family: "微软雅黑";
+				font-size: 14px;
+				color:#fff;
+				white-space: nowrap;
+				text-decoration: none;
+			}
+			.up-list>li>a:hover{
+				color:#ff5950;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id = "last-li">
+			上拉菜单
+			<ul class = "up-list">
+				<li><a href="javascript:void(0)">加入我们</a></li>
+				<li><a href="javascript:void(0)">加入我们</a></li>
+				<li><a href="javascript:void(0)">加入我们</a></li>
+				<li><a href="javascript:void(0)">加入我们</a></li>
+				<li><a href="javascript:void(0)">加入我们</a></li>
+				<li><a href="javascript:void(0)">加入我们</a></li>
+			</ul>
+		</div>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				var boolopen = true;
+				$("#last-li").on("click",function(){
+					if(boolopen){
+						$(".up-list").show();
+						boolopen = false;
+					}else{
+						$(".up-list").hide();
+						boolopen = true;
+					}
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="zh-cmn-Hans">
+
+		<meta charset="UTF-8">
+
+		<title>[国富通]投资详情</title>
+
+		<meta name="keywords" content="国富通,国富通P2P,网上投资,投资理财,网络借贷, 融资借贷 ,网上理财,安全理财">
+
+		<meta name="description" content="国富通—安全，专业的网络借款、理财平台。提供便捷、安全、低门槛的个人理财和抵押、信用贷款服务。国富通以稳健的风控和专业的团队，为投资者提供年化收益高达18-24%的网上理财服务。对接投资信息与融资需求，致力于建设中国唯一高效互联网金融工具。">
+
+		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="css/commonV3.css">
+		<link rel="stylesheet" type="text/css" href="css/skin/layer.css" />
+		<link rel="stylesheet" type="text/css" href="css/pagination.css" />
+		<link rel="stylesheet" type="text/css" href="css/invest-detail.css" />
+		<script src="js/vendor/modernizr.custom.31843.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<!--是否满标，顺带一提这个值js没用到-->
+		<input type="hidden" name="isMax" id="isMax" value="true" />
+		<!--是否登陆-->
+		<input type="hidden" name="isLogin" id="isLogin" value="true" />
+		<!--是否实名-->
+		<input type="hidden" name="isAuthen" id="isAuthen" value="true" />
+		<!--是否绑定银行卡-->
+		<input type="hidden" name="isBank" id="isBank" value="true" />
+		<!--2017/8/22头-->
+		<!--是否开通E账户-->
+		<input type="hidden" name="isE" id="isE" value="false" />
+		<!--2017/8/22尾-->
+		<!--测评状态-->
+		<!--//2017/12/7-->
+		<input type="hidden" name="type2" id="type2" value="0" />
+		<!--//2017/12/7-->
+		<header id="header">
+
+			<div class="header-top">
+
+				<div class="layout clear-fix">
+
+					<p class="hot-line">客服热线：4000-360-995（工作日9:00-18:00）</p>
+
+					<ul class="followus">
+
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns qq">
+								<div class="social-content" style="display: none;">
+									<p class="social-title">国富通官方QQ群</p>
+									<p>官方一群：339103562</p>
+									<p>官方二群：229094780</p>
+								</div>
+							</a>
+
+						</li>
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns weixin">
+
+								<div class="social-content" style="display: none;">
+
+									<p class="social-title">扫描关注微信公众号</p>
+
+									<p><img src="images/wechat2.png"></p>
+
+								</div>
+
+							</a>
+
+						</li>
+						<li>
+
+							<a href="http://weibo.com/gftp2p" target="_blank" class="icon-sns weibo"></a>
+
+						</li>
+
+					</ul>
+					<ul class="header-top-r">
+
+						<li class="lists" id="list">
+							<a href="javascript:void(0)" style="margin-right: 15px;">尊敬的【150****8297】欢迎您 !</a>
+							<a class="lists-l" href="javascript:void(0)">安全退出</a>
+							<!--<a class="lists-l" id="name-list" href="http://www.gftbank.cn/login.html">登录 </a>-->
+						</li>
+						<!--<li class="lists">
+							<a class="lists-l" href="/reg.html">注册</a>
+						</li>-->
+						<li class="lists list3">
+							<a href="javascript:void(0)">手机APP
+								<div class="app-banner">
+									<div class="banner-img">
+										<img src="images/wechatApp.png" />
+									</div>
+									<div class="banner-detail">
+										app客户端下载
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="lists ">
+							<a href="/aboutus.html">帮助中心</a>
+						</li>
+						<li class="lists list-last">
+							<a href="/guide.html">新手指引</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="layout header-logoWrap">
+
+				<div class="header-navWrap">
+
+					<nav class="header-nav">
+						<ul>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="index.html">首页</a>
+							</li>
+
+							<li class="lists current">
+								<a class="lists-l lists-dot" href="/invest.html">我要投资</a>
+							</li>
+
+							<li class="lists  ">
+								<a class="lists-l lists-dot" href="safety.html">安全措施</a>
+							</li>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="/safety.html">信息披露</a>
+							</li>
+
+							<li class="lists  ">
+								<a class="lists-l" href="http://www.gftbank.cn/login.html">我的账户</a>
+							</li>
+
+						</ul>
+
+					</nav>
+
+				</div>
+
+				<h1>
+
+            <a href="/"><img src="images/logo.png" title="国富通" alt="国富通logo"></a>
+
+        </h1>
+
+			</div>
+
+		</header>
+		<div class="invest-nav-frame">
+			<div class=" layout">
+				<div class="invest-nav">
+					<a href="javascript:void(0)" id="history-back" class="history-back">&lt;返回</a>
+					<a href="javascript:void(0)">我要投资 &gt;</a>
+					<a href="javascript:void(0)">国富链D17053110</a>
+				</div>
+			</div>
+		</div>
+		<div class="invest-nav-frame ">
+			<div class="invest-section1 layout">
+				<div class="section1-col1">
+					<div class="section1-title-frame">
+						<div class="title-icon">国</div>
+						<div class="section1-title">
+							尊享计划D17053110
+							<!--2017/8/22头-->
+							<div class = "cunguan-img">
+									<img src="images/newCopyRight/cunguan.png"/>
+								</div>
+							<!--2017/8/22尾-->
+						</div>
+					</div>
+					<div class="section1-data-frame">
+						<ul class="data-threeCol">
+							<li class="li-first">
+								<div class="data-red"><span id="rate-percent">50</span>%</div>
+								<div class="data-gray">预期年化利息率</div>
+							</li>
+							<li class="li-second">
+								<div class="data-red"><span id="month-data">7</span>个月</div>
+								<div class="data-gray">项目期限</div>
+							</li>
+							<li class="li-last">
+								<div class="data-red">￥10000000.00</div>
+								<div class="data-gray">项目总额</div>
+							</li>
+						</ul>
+					</div>
+					<ul class="detail-list">
+						<li>
+							<div class="detail-icon detail-icon1"></div>
+							<div class="detail-text">还款方式：按月付息到期还本</div>
+						</li>
+						<li class="li-last">
+							<div class="detail-icon detail-icon2"></div>
+							<div class="detail-text">发布时间：2017-06-03 15:30:30</div>
+						</li>
+						<li>
+							<div class="detail-icon detail-icon3"></div>
+							<div class="detail-text">起息日期：T（满标日）+1</div>
+						</li>
+						<li class="li-last">
+							<div class="detail-icon detail-icon6"></div>
+							<span class="detail-text detail-text1">项目进度 :</span>
+							<span class="section1-process progress-bar-wrap" data-val="true">
+								<span class = "progress-bar">
+									<span class = "progress">
+										
+									</span>
+									</span>
+									<span class="progress-state">
+									50%
+									<div class = "progress-trangle"></div>
+								</span>
+							</span>
+						</li>
+						<li >
+							<div class="detail-icon detail-icon4"></div>
+							<div class="detail-text">计划单位：<span>100元每份</span></div>
+						</li>
+						<li class="li-last">
+							<div class="detail-icon detail-icon7"></div>
+							<div class="detail-text">保障方式：安诚信担保</div>
+						</li>
+					</ul>
+				</div>
+				<div class="section1-col2">
+					<div class="col2-layout">
+						<!--******************************未登录的情况**************************************-->
+						<!--<div class="unlogin-unMax">
+							<div class="invest-status1">
+								<div class="invest-text">剩余可购买金额：<span class="keyong">1527.00元</span><br/>账户余额
+									<a id="loginBtn" href="javascript:void(0)">登录</a>后可见</div>
+							</div>
+							<div class="all-invest">
+								<div class="number-btn">
+									<div class="minus-btn minus-end" unselectable="on" onselectstart="return false;">-</div>
+									<div class="number-box">
+										<input class="number-count invest-data" type="text" min="0" name="count" id="count" value="100" maxlength="6" placeholder="100元起投,请输入金额"  onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;">
+										<div class="number-text">元</div>
+									</div>
+									<div class="add-btn" unselectable="on" onselectstart="return false;">+</div>
+								</div>
+								<input class="invest-submit" type="submit" name="invest-submit1" id="invest-operate" value="立即购买" />
+							</div>
+							<div class="invest-detail">温馨提示：市场有风险，出借须谨慎</div>
+						</div>-->
+
+						<!--******************************已登录的情况**************************************-->
+						<div class="login-unMax">
+							<div class="invest-info">
+								剩余可购买金额：<span class="invest-num1 bold"><span class = "keyong">1547.00</span>元</span>
+							</div>
+							<div class="invest-info">
+								账户余额：<span class="invest-num1 bold"><span class = "still">1000</span>元</span>
+							</div>
+							<input type="hidden" name="invest-num" id="invest-num" value="0" />
+							
+							<div class="number-btn">
+								<div class="minus-btn minus-end" unselectable="on" onselectstart="return false;">-</div>
+								<div class="number-box">
+									<input class="number-count invest-data" type="text" min="0" name="count" id="count" value="100" maxlength="6" placeholder="100元起投,请输入金额"  onKeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;">
+									<div class="number-text">元</div>
+								</div>
+								<div class="add-btn" unselectable="on" onselectstart="return false;">+</div>
+							</div>
+							<div class="redBag">
+								<p class="redbg_txt">
+									<a class="btns_click" data-path="getrewards" data-bidtype="2" data-month="6">使用卡券</a>
+									<span class="show_selected show-rewards"></span>
+								</p>
+							</div>
+							<div class="invest-detail invest-detail1">预期收益： <span id="pre-invest">0.00</span> 元</div>
+							<input type="hidden" name="planid" id="planid" value="551" />
+							<input class="invest-submit" type="submit" name="invest-submit2" id="planinvest" value="立即购买" />
+							<div class="invest-detail">温馨提示：市场有风险，出借须谨慎</div>
+						</div>
+						<!--******************************已登录满标的情况**************************************-->
+						<!--<div class = "login-Max">
+							<div class = "max-notice">
+								该项目已投满，<br/>
+								请关注其它优质项目,谢谢！
+							</div>
+							<div class = "max-icon"></div>
+							<div class = "max-more"><a class = "more-href" href = "javascript:void(0)">点击查看</a>更多其它优质项目</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="invest-nav-frame ">
+			<div class="invest-section2 layout">
+				<div class="section2-title">操作流程:</div>
+				<ul class="section2-list">
+					<li>
+						<div class = "section2-icon section2-icon1"></div>
+						<div class = "section2-detail">
+							<div class = "section2-text1">开始投资</div>
+							<div class = "section2-text2">2017.06.15</div>
+						</div>
+						<div class = "section2-arrow"></div>
+					</li>
+					<li>
+						<div class = "section2-icon section2-icon2"></div>
+						<div class = "section2-detail">
+							<div class = "section2-text1">开始计息</div>
+							<div class = "section2-text2">2017.06.16</div>
+						</div>
+						<div class = "section2-arrow"></div>
+					</li>
+					<li>
+						<div class = "section2-icon section2-icon3"></div>
+						<div class = "section2-detail">
+							<div class = "section2-text1">项目到期</div>
+							<div class = "section2-text2">2017.09.16</div>
+						</div>
+						<div class = "section2-arrow"></div>
+					</li>
+					<li class = "li-last">
+						<div class = "section2-icon section2-icon4"></div>
+						<div class = "section2-detail">
+							<div class = "section2-text1">还本付息</div>
+							<div class = "section2-text2">至账户中</div>
+						</div>
+						<div class = "section2-arrow"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="invest-nav-frame invest-nav-frame-last">
+			<div class="invest-section3 layout">
+				<ul class="section3-list">
+					<li>
+						<a class="section3-current" href="javascript:void(0)">产品说明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">项目详情</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">投资记录</a>
+					</li>
+				</ul>
+				<div class="section3-content" style="display: block;">
+					<table>
+						<tr>
+							<td class="first-col">计划名称</td>
+							<td>
+								尊享计划D-170606
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">计划说明</td>
+							<td>
+								国富通为用户投资推出的智能理财计划服务，用户加入尊享计划后，平台立即启动优先匹配相应标的，对符合要求的标的进行优先匹配投资。投资人需自行承担资金投资收益的风险与责任；市场有风险，投资需谨慎。
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">投资范围</td>
+							<td>
+								资金分散投资于优质供应商应收账款收益权，由国富通供应链合作方到期回购担保
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">起投金额</td>
+							<td>
+								1份起投 ， 100元/份，上限5000份
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">项目期限</td>
+							<td>
+								3个月
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">收益方式</td>
+							<td>
+								预期年化收益率10%，月息期本
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">起息日期</td>
+							<td>
+								计划实际投资日起算（产品满额日）
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">还款方式</td>
+							<td>
+								到期时，系统将自动转让持有的债权完成退出，退出时间以您所持债权实际转让完成时间为准
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">费用说明</td>
+							<td>
+								加入费用0元，退出费用0元
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">服务协议</td>
+							<td>
+								点击查看
+								<a class = "lookxieyi" href="javascript:void(0)">《尊享计划服务协议》</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="section3-content">
+					<table>
+						<tr>
+							<td class="first-col">项目名称</td>
+							<td>
+								尊享计划C2-山东辣椒产业项目融资1期
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">项目介绍</td>
+							<td>
+								本项目是为大型核心企业的上游农资供应商提供的应收账款债权融资服务。一期融资1000万
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">资金投向</td>
+							<td>
+								大型核心企业的上游供应商提供的应收账款债权融资服务
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">还款来源</td>
+							<td>
+								第一还款来源：****辣业有限公司实力雄厚，基于基础合作合同负有还款责任，回款金额覆盖本次融资本息。<br/> 第二还款来源：****供应链公司到期回购债权
+								<br/> 第三还款来源：债务方股东承担保证责任
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">风控措施</td>
+							<td>
+								一、核实基础交易：专业律师团队尽调基础合同（买卖双方企业贸易合同）的真实合法性，保证项目的真实、有效、合法；<br/> 二、甄选优质核心企业：实地调查采购商（买方）和供应商（卖方）的企业运转情况，评估采购商的付款能力；保证项目资金的安全性；
+								<br/> 三、双重尽调，保证信息真实有效公开：国富通对每笔交易项目进行再次尽调后再发布收益权转让信息；
+								<br/> 四、债权覆盖，双重担保：融资金额为应收账款的70%以内，保证债权覆盖；核心企业到期还款，供应链公司到期回购债权。
+							</td>
+						</tr>
+						<tr>
+							<td class="first-col">核心企业</td>
+							<td>
+								买方核心企业成立于2000年，注册资本7000万，以辣椒制品为核心形成了“研发、育种、种植、精深加工、仓储、物流、销售、服务”八位一体的全产业链，成为中国辣椒全产业链的领航者，年销售额10亿余元。主营辣椒种植、收购、储存及辣椒制品的生产、销售，主要产品为辣椒干系列制品、辣椒酱系列制品、辣椒红色素系列制品、快速消费品系列等四大系列产品，其中6个产品获得绿色食品认证， 6个产品获得有机食品认证。公司先后获得“农业产业化国家重点龙头企业”、“全国绿色食品示范企业”、“全国农产品加工业示范企业”、“全国有机辣椒创建示范园”、“山东省高新技术企业”、“山东省扶贫重点龙头企业”等荣誉称号。
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="section3-content">
+					<table class="invest-history">
+						<tr>
+							<th>序号</th>
+							<th>投资人</th>
+							<th>投资金额（元）</th>
+							<th>投资时间 </th>
+						</tr>
+						<tr>
+							<td>01</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>02</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>03</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>04</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>05</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>06</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+						<tr>
+							<td>07</td>
+							<td>zh***</td>
+							<td>￥329,864.78</td>
+							<td>2017-06-26 10:31:14</td>
+						</tr>
+					</table>
+					<ul class="pagination">
+						<li>
+							<a class="pre-next pre" href="javascript:void(0)"></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">01</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">02</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">03</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">04</a>
+						</li>
+						<li class="dot">
+							...
+						</li>
+						<li>
+							<a href="javascript:void(0)">25</a>
+						</li>
+						<li class=" li-last">
+							<a class="pre-next next" href="javascript:void(0)"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="loading1">
+		</div>
+		<div class="login-frame fixed-frame">
+			<div class="fixed-bg"></div>
+			<div class="login-content">
+				<a href="javascript:void(0)" class="fixed-close">
+					<img src="images/fix-close.png" />
+				</a>
+				<div class="login-layout">
+					<div class="login-title">用户登录</div>
+					<div class="login-input-frame frame-current">
+						<div class="login-icon login-icon1"></div>
+						<input class="login-input login-input1" type="text" name="username" id="signIn_id" value="" placeholder="请输入用户名/手机号码">
+					</div>
+					<div class="login-input-frame">
+						<div class="login-icon login-icon2"></div>
+						<input class="login-input login-input2" type="password" name="password" id="signIn_psw" maxlength="20" value="" placeholder="请输入用户密码">
+						<a href="javascript:void(0)" class="forgetPw">忘记密码？</a>
+					</div>
+					<ul class="login-button-group">
+						<li>
+							<input class="login-btn" type="submit" name="submit-btn" id="signIn_btn" value="立即登录">
+						</li>
+						<li class="register-detail">
+							还没帐号？
+							<a href="register.html" class="register-text">立即注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="selectfixed-frame fixed-frame">
+			<div class="fixed-bg"></div>
+			<div class="selectfixed-content">
+				<div class="selectfixed-title-bar">
+					<div class="selectfixed-title">
+						我的卡券
+					</div>
+					<a href="javascript:void(0)" class="fixed-close">
+						<img src="images/fix-close.png" />
+					</a>
+				</div>
+				<ul class="selectfixed-fixed">
+					<!--<li class="redbags" data-id="59656" data-type="packet">
+						<div class="redbags-title">代金券</div>
+						<div class="redbags-money"><span>100</span>元</div>
+						<div class="redbags-status">已过期</div>
+						<div class="redbags-date">使用期限<br/><span>2017-07-10 10:00:12</span></div>
+						<div class="redbags-if">使用条件<br/>fvvvevwevwevwevwevwevwevwevwevw</div>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<!--尾部-->
+		<footer id="footer">
+			<div class="footer-content">
+				<div class="layout footer-frame clear-fix">
+					<div class="footer-banner1 footer-banner">
+						<div class="footer-title1 footer-title">客服热线</div>
+						<div class="footer-banner1-text">
+							客服热线400-360-995（工作时间 9:00-18:00）<br/> 客服邮箱（kefu@yooli.com）
+							<br/> 广东省深圳市福田区彩田路瀚森大厦15A
+							<br/>
+						</div>
+						<a class="resume-btn" href="javascript:void(0)"></a>
+					</div>
+					<div class="footer-banner2 footer-banner">
+						<ul class="info_list">
+							<li class="footer-title">
+								信息披露
+							</li>
+							<li>
+								<a href="info.html?id=notice">
+									平台公告
+								</a>
+							</li>
+							<li>
+								<a href="info.html?id=media">
+									媒体报道
+								</a>
+							</li>
+							<li>
+								<a href="info.html?id=recruit">
+									诚聘英才
+								</a>
+							</li>
+							<li>
+								<a href="info.html?id=contact">
+									联系我们
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li class="footer-title">
+								安全保障
+							</li>
+							<li>
+								<a href="safety.html#section6">
+									法律保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section2">
+									实力保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section5">
+									技术保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section3">
+									资金保障
+								</a>
+							</li>
+						</ul>
+						<ul class="li-last">
+							<li class="footer-title">
+								帮助中心
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									常见问题
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									新手指引
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									借款流程
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer-banner3 footer-banner">
+						<li>
+							<div class="app-ewm ewm">
+								<img src="images/newCopyRight/app.jpg" />
+							</div>
+							<div class="ewm-detail">APP客户端下载</div>
+						</li>
+						<li class="li-last">
+							<div class="wechat-ewm ewm">
+								<img src="images/newCopyRight/wechat.jpg" />
+							</div>
+							<div class="ewm-detail">国富通微信公众号</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="footerlogo layout">
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo1.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo2.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo3.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo4.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo5.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo6.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="layout footer-copyright">
+				<p class="footer-cent">
+					<a class="cent1" href="http://www.miitbeian.gov.cn" target="_blank">Copyright © 2014-2015备案号：粤ICP备14038056号-1</a>
+					<a href="javascript:void(0)" class="cent2">深圳前海国富通电子商务有限公司 </a>
+				</p>
+			</div>
+		</footer>
+		<script type="text/javascript">
+		</script>
+		<!--尾部-->
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/layer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/require.js" data-main="js/app/invest.js"></script>
+
+</html>

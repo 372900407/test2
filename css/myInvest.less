@@ -1,0 +1,204 @@
+.pos-relative {
+    position: relative;
+}
+
+.list_t {
+    display: block;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #e5eced;
+    color: #666666;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.on .list_t,
+.list_t:hover {
+    background-color: #3c9adc;
+    color: #fff;
+}
+
+.inv-cate-content .content-main {
+    line-height: 35px;
+    color: #333;
+}
+
+p.formula {
+    margin: 15px 0 30px;
+    color: #999;
+}
+
+.investing {
+    padding: 20px 25px;
+    position: relative;
+    text-align: center;
+    .invest-table {
+        width: 100%;
+        td {
+            padding-left: 15px;
+        }
+        font-size: 13px;
+        thead {
+            background: #e5eced;
+            td {
+                height: 45px;
+            }
+        }
+        tbody {
+            background: #f9f9f9;
+            tr {
+                border-bottom: 1px solid #e5e5e5;
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+            td {
+                height: 80px;
+            }
+            .red_rate {
+                color: #fa3921;
+            }
+        }
+        .lock-time {
+            width: 90px;
+        }
+        .first_col {
+            width: 120px;
+        }
+        .operat {
+            position: relative;
+            .operat-more {
+                color: #3c9adc;
+                &:hover { text-decoration: underline;}
+            }
+            .operat-list {
+                display: none;
+                position: absolute;
+                top: 30px;
+                left: 0;
+                border: 1px solid #e5e5e5;
+                background: #fff;
+                text-indent: 0;
+                z-index: 100;
+                li {
+                    width: 72px;
+                    height: 32px;
+                    line-height: 32px;
+                    border-bottom: 1px dashed #e5e5e5;
+                    text-align: center;
+                    a {
+                        color: #666;
+                        &:hover {
+                            color: #3c9adc;
+                        }
+                    }
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+        .table-pagination {
+            padding-right: 20px;
+            .page {
+                float: right;
+                li {
+                    display: inline-block;
+                    a {
+                        display: block;
+                        width: 24px;
+                        height: 22px;
+                        line-height: 22px;
+                        margin: 0 5px;
+                        text-align: center;
+                        border-radius: 3px;
+                        color: #999;
+                        font-size: 16px;
+                        transition: .2s;
+                        &.on,
+                        &:hover {
+                            color: #fff;
+                            background: #ff5950;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.keeping .invest-table {
+    .first_col { width: 85px;}
+    .lock-time { width: 100px;}
+    .had-invest { width: 85px;}
+}
+.sign-out .invest-table {
+    .first_col { width: 85px;}
+    .w70 { width: 70px;}
+}
+
+
+// 投资详情页面
+.invest-detail-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    z-index: 100;
+    background: #fff;
+    overflow: hidden;
+    transition: .2s;
+    iframe.invest-detail {
+        width: 100%;
+        min-height: 678px;
+        background: #fff;
+        border: none;
+    }
+    .invest-close {
+        display: block;
+        float: right;
+        width: 16px;
+        height: 16px;
+        margin-top: 8px;
+        margin-right: 8px;
+        margin: 8px 8px 8px 0;
+        background: url(../images/close-icon.png)center center no-repeat;
+    }
+}
+
+// 查看合同
+.check_contract-box {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 500;
+    
+    .check_detail {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        width: 1200px;
+        margin-left: -600px;
+        background: #fff;
+    }
+    .check_close {
+        display: block;
+        float: right;
+        width: 16px;
+        height: 16px;
+        margin-top: -20px;
+        margin-right: 0px;
+        background: url(../images/close-icon.png)center center no-repeat;
+    }
+    .contract {
+        width: 100%;
+        height: 800px;;
+    }
+}

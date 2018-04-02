@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="zh-cmn-Hans">
+		<meta charset="UTF-8">
+		<title>[国富通]收货地址</title>
+		<meta name="keywords" content="国富通,国富通P2P,网上投资,投资理财,网络借贷, 融资借贷 ,网上理财,安全理财">
+		<meta name="description" content="国富通—安全，专业的网络借款、理财平台。提供便捷、安全、低门槛的个人理财和抵押、信用贷款服务。国富通以稳健的风控和专业的团队，为投资者提供年化收益高达18-24%的网上理财服务。对接投资信息与融资需求，致力于建设中国唯一高效互联网金融工具。">
+		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/skin/layer.css" />
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel='stylesheet' href='css/account.css'>
+		<link rel='stylesheet' href='css/white-address.css'>
+	</head>
+
+	<body>
+
+		<div class="layout clear-fix" id="myAccount">
+			<div class="mA-content">
+				<h2 class="red-title">我的收货地址</h2>
+				<div class="red-content">
+					<div class="">
+						<div class="white-border">
+							<div class="white-title">
+								<a class="white-add white-alert" href="javascript:void(0)">新增收货地址</a>
+								<div class="white-detail">最多可创建5个收货地址</div>
+								<a class="white-href" href="white-index.html">速去白拿</a>
+							</div>
+							<ul class="white-list">
+								<li>
+									<div class="white-man">收货人：<span>陈杰</span></div>
+									<div class="white-address">收货地址：<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)</span></div>
+									<div class="white-detail-address">
+										<div class="goodsAddressLabel">详细地址：</div>
+										<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路</span>
+									</div>
+									<div class="white-phone">手机：<span>18826411790</span></div>
+									<div class="white-link">
+										<a href="javascript:void(0)" class="default-link default-address" data-id="12345">默认地址</a>
+										<a href="javascript:void(0)" class="white-edit">编辑</a>
+										<div class="fixed-content fixed-content2">
+											<a href="javascript:void(0)" class="fixed-close"><img src="images/fix-close.png" /></a>
+											<div class="fixed-title">编辑收货地址</div>
+											<table class="fixed-goods" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="col1"><label>收货人：</label></td>
+													<td><input type="text" name="goodsMan" class="goodsMan" value="" placeholder="请输入收货人" maxlength="25" /></td>
+												</tr>
+												<tr>
+													<td class="col1"><label>收货地址：</label></td>
+													<td>
+														<form class="form-inline">
+															<div id="distpicker">
+																<div class="form-group">
+																	<div style="position: relative;">
+																		<input type="text" name="goodsAddress" readonly class="goodsAddress form-control" value="" data-toggle="city-picker" readonly placeholder="请输入收货地址" />
+																	</div>
+																</div>
+															</div>
+														</form>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>详细地址：</label></td>
+													<td>
+														<textarea name="goodsDetailAddress" class="goodsDetailAddress" rows="5" cols="" placeholder="请输入详细地址"></textarea>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>手机号码：</label></td>
+													<td><input type="text" name="goodsPhone" class="goodsPhone" value="" placeholder="请输入手机号码" maxlength="11" /></td>
+												</tr>
+											</table>
+											<a class="white-add white-save" href="javascript:void(0)" data-status="edit">
+												保&nbsp;&nbsp;&nbsp;存
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="white-man">收货人：<span>陈杰</span></div>
+									<div class="white-address">收货地址：<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)</span></div>
+									<div class="white-detail-address">
+										<div class="goodsAddressLabel">详细地址：</div>
+										<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)</span>
+									</div>
+									<div class="white-phone">手机：<span>18826411790</span></div>
+									<div class="white-link">
+										<a href="javascript:void(0)" class="default-link" data-id="2345">设为默认</a>
+										<a href="javascript:void(0)" class="white-edit">编辑</a>
+										<div class="fixed-content fixed-content2">
+											<a href="javascript:void(0)" class="fixed-close"><img src="images/fix-close.png" /></a>
+											<div class="fixed-title">编辑收货地址</div>
+											<table class="fixed-goods" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="col1"><label>收货人：</label></td>
+													<td><input type="text" name="goodsMan" class="goodsMan" value="" placeholder="请输入收货人" maxlength="25" /></td>
+												</tr>
+												<tr>
+													<td class="col1"><label>收货地址：</label></td>
+													<td>
+														<form class="form-inline">
+															<div id="distpicker">
+																<div class="form-group">
+																	<div style="position: relative;">
+																		<input type="text" name="goodsAddress" readonly class="goodsAddress form-control" value="" data-toggle="city-picker" readonly placeholder="请输入收货地址" />
+																	</div>
+																</div>
+															</div>
+														</form>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>详细地址：</label></td>
+													<td>
+														<textarea name="goodsDetailAddress" class="goodsDetailAddress" rows="5" cols="" placeholder="请输入详细地址"></textarea>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>手机号码：</label></td>
+													<td><input type="text" name="goodsPhone" class="goodsPhone" value="" placeholder="请输入手机号码" maxlength="11" /></td>
+												</tr>
+											</table>
+											<a class="white-add white-save" href="javascript:void(0)" data-status="edit">
+												保&nbsp;&nbsp;&nbsp;存
+											</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="white-man">收货人：<span>陈杰</span></div>
+									<div class="white-address">收货地址：<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)</span></div>
+									<div class="white-detail-address">
+										<div class="goodsAddressLabel">详细地址：</div>
+										<span>福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)福华三路118号皇庭广场B1层5-6号铺(近博纳影院)</span>
+									</div>
+									<div class="white-phone">手机：<span>18826411790</span></div>
+									<div class="white-link">
+										<a href="javascript:void(0)" class="default-link" data-id="1235">设为默认</a>
+										<a href="javascript:void(0)" class="white-edit">编辑</a>
+										<div class="fixed-content fixed-content2">
+											<a href="javascript:void(0)" class="fixed-close"><img src="images/fix-close.png" /></a>
+											<div class="fixed-title">编辑收货地址</div>
+											<table class="fixed-goods" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="col1"><label>收货人：</label></td>
+													<td><input type="text" name="goodsMan" class="goodsMan" value="" placeholder="请输入收货人" maxlength="25" /></td>
+												</tr>
+												<tr>
+													<td class="col1"><label>收货地址：</label></td>
+													<td>
+														<form class="form-inline">
+															<div id="distpicker">
+																<div class="form-group">
+																	<div style="position: relative;">
+																		<input type="text" name="goodsAddress" readonly class="goodsAddress form-control" value="" data-toggle="city-picker" readonly placeholder="请输入收货地址" />
+																	</div>
+																</div>
+															</div>
+														</form>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>详细地址：</label></td>
+													<td>
+														<textarea name="goodsDetailAddress" class="goodsDetailAddress" rows="5" cols="" placeholder="请输入详细地址"></textarea>
+													</td>
+												</tr>
+												<tr>
+													<td class="col1"><label>手机号码：</label></td>
+													<td><input type="text" name="goodsPhone" class="goodsPhone" value="" placeholder="请输入手机号码" maxlength="11" /></td>
+												</tr>
+											</table>
+											<a class="white-add white-save" href="javascript:void(0)" data-status="edit">
+												保&nbsp;&nbsp;&nbsp;存
+											</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="white-title last-title">
+								<a class="white-add white-alert" href="javascript:void(0)">新增收货地址</a>
+								<div class="white-detail">最多可创建5个收货地址</div>
+								<a class="white-href" href="white-index.html">速去白拿</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="white-fixed1">
+				<div class="fixed-bg"></div>
+				<div class="fixed-content">
+					<a href="javascript:void(0)" class="fixed-close"><img src="images/fix-close.png" /></a>
+					<div class="fixed-title">新增收货地址</div>
+					<table class="fixed-goods" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td class="col1"><label>收货人：</label></td>
+							<td><input type="text" name="goodsMan" class="goodsMan" value="" placeholder="请输入收货人" maxlength="25" /></td>
+						</tr>
+						<tr>
+							<td class="col1"><label>收货地址：</label></td>
+							<td>
+								<form class="form-inline">
+									<div id="distpicker">
+										<div class="form-group">
+											<div style="position: relative;">
+												<input type="text" name="goodsAddress" readonly class="goodsAddress form-control" value="" data-toggle="city-picker" readonly placeholder="请输入收货地址" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</td>
+						</tr>
+						<tr>
+							<td class="col1"><label>详细地址：</label></td>
+							<td>
+								<textarea name="goodsDetailAddress" class="goodsDetailAddress" rows="5" cols="" placeholder="请输入详细地址"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td class="col1"><label>手机号码：</label></td>
+							<td><input type="text" name="goodsPhone" class="goodsPhone" value="" placeholder="请输入手机号码" maxlength="11" /></td>
+						</tr>
+					</table>
+					<a class="white-add white-save" href="javascript:void(0)" data-status="add">
+						保&nbsp;&nbsp;&nbsp;存
+					</a>
+				</div>
+			</div>
+
+			<div class="mA-nav">
+				<div class="user-name">
+					<canvas id="canvas" style="width:200px;height:100px;">您的浏览器不支持canvas,请更换浏览器重试</canvas>
+					<img src="" id="head-img">
+					<!-- 头像 -->
+					<p class="greet">您好
+						<br>RXnj6MDK3gkmb</p>
+				</div>
+				<!--由 js 判断 安全等级 在下面加class-- zero one two three four-->
+				<div class="safety" id="safety">
+					<ul>
+						<!-- 已验证 的话 加 class done-->
+						<li class="lists">
+							<a class="safe-icon safe-relName" href="#" title="实名未验证"></a>
+						</li>
+						<li class="lists">
+							<a class="safe-icon safe-tel done" href="#" title="手机已验证"></a>
+						</li>
+						<li class="lists">
+							<a class="safe-icon safe-email" href="#" title="邮箱未激活"></a>
+						</li>
+						<li class="lists">
+							<a class="safe-icon safe-psw" href="#" title="支付密码未设置"></a>
+						</li>
+					</ul>
+					<div class="safety-progress">
+						<div class="progress-bar" id="progressBar"></div>
+					</div>
+					<p class="safety-lvl">安全等级 :　<span class="lvl-txt" id="lvlTxt"></span>
+						<a class="col-r lvl-up" href="/user-setting.html">【提升】</a>
+					</p>
+				</div>
+				<div class="nav-lists">
+					<ul>
+						<!-- 有提醒加 class show-->
+						<li class="list-col ">
+							<a class="col-link col-acc" href="http://www.gftp2p.com/user-index.html">我的账户<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-cha" href="http://www.gftp2p.com/user-recharge.html">充值<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-wdt" href="http://www.gftp2p.com/user-withdraw.html">提现<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-mng" href="http://www.gftp2p.com/user-setting.html">账户管理<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ive" href="http://www.gftp2p.com/user-invest.html">我的投资
+								<!-- <span class="hint show">6</span> --></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-rec" href="http://www.gftp2p.com/user-bill.html">资金记录<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-msg" href="http://www.gftp2p.com/user-message.html">消息中心<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ivi" href="http://www.gftp2p.com/user-recommend.html">我的邀请<span class="hint"></span></a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-red" href="http://www.gftp2p.com/user-prize.html">我的红包<span class="hint"></span></a>
+						</li>
+						<li class="list-col">
+							<a class="col-link col-quan" href="http://www.gftp2p.com/user-prize.html">我的投资券<span class="hint"></span></a>
+						</li>
+						<!--修改-->
+						<li class="list-col current" id="white-click">
+							<a class="col-link col-quan" href="javascript:void(0)">我的商品<span class="hint"></span></a>
+						</li>
+						<ul class="white-with">
+							<li >
+								<a class="col-link col-link1" href="white-buyed.html">已购商品</a>
+							</li>
+							<li >
+								<a class="col-link col-link1" href="white-interest.html">我的白拿</a>
+							</li>
+							<li class="current" >
+								<a class="col-link col-link1" href="white-address.html">收货地址</a>
+							</li>
+						</ul>
+						<!--修改-->
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/vendor/jquery-1.11.3.min.js"></script>
+		<script src="js/app/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/app/bootstrap.js"></script>
+		<script src="js/app/city-picker.data.js"></script>
+		<script src="js/app/city-picker.js"></script>
+		<script src="js/app/main.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//增加
+				var dataBool = true;
+				$("#white-click").on("click", function() {
+					if(dataBool) {
+						$(".white-with").addClass("white-with-current");
+						dataBool = false;
+					} else {
+						$(".white-with").removeClass("white-with-current");
+						dataBool = true;
+					}
+				})
+
+				$(".white-alert").on("click", function() {
+					$(".white-fixed1").show();
+				})
+
+				$(document).on("click", ".default-link", function() {
+					var did = $(".default-link").data("id");
+					var data = {};
+					data.did = did;
+					$.ajax({
+						type: 'post',
+						url: '',
+						dataType: 'json',
+						data: data,
+						success: function(d) {
+							if(d.status == 'nopass') { //手机号码不存在
+								layer.alert(d.message);
+							} else if(d.status == 'pass') { //手机号码存在
+								$(".default-link").removeClass("default-address");
+								$(".default-link").text("设为默认");
+								$(this).addClass("default-address");
+								$(this).text("默认地址");
+							}
+						}
+					});
+				})
+
+				$(document).on("click", function() {
+					$(".fixed-content2").hide();
+				});
+
+				$(document).on("click", ".fixed-content2", function(event) {
+					event.stopPropagation();
+				})
+
+				$(document).on("click", ".white-edit", function(event) {
+					event.stopPropagation();
+					$(".fixed-content2").hide();
+					$(this).siblings(".fixed-content2").show();
+				})
+
+				$(document).on("click", ".fixed-close", function() {
+					fixedClose($(this));
+				})
+
+				$(document).on("click", ".white-save", function() {
+					var _this = $(this);
+					var goodsMan = $(this).siblings(".fixed-goods").find(".goodsMan").val();
+					var goodsAddress = $(this).siblings(".fixed-goods").find(".goodsAddress").val();
+					var goodsPhone = $(this).siblings(".fixed-goods").find(".goodsPhone").val();
+					var goodsDetailAddress = $(this).siblings(".fixed-goods").find(".goodsDetailAddress").val();
+					var status = $(this).data("status");
+					var data = {};
+					var defaultValstr;
+					var defaultVal = _this.parents("li").find(".default-link").hasClass("default-address");
+					var userListLength = $(".white-list").children("li").length;
+					var bool = verify(goodsMan, goodsDetailAddress, goodsAddress, goodsPhone);
+					data.goodsMan = goodsMan;
+					data.goodsAddress = goodsAddress;
+					data.goodsDetailAddress = goodsDetailAddress;
+					data.goodsPhone = goodsPhone;
+
+					var resData = render(goodsMan, goodsDetailAddress, goodsAddress, goodsPhone, defaultVal, defaultValstr);
+					//li的html渲染模板
+					if(bool) {
+						if(status == "add") {
+							if(userListLength < 5) {
+								$(".white-list").prepend(resData);
+								$('[data-toggle="city-picker"]').citypicker();
+							}
+						} else {
+							_this.parents("li").replaceWith(resData);
+							$('[data-toggle="city-picker"]').citypicker();
+						}
+						fixedClose(_this);
+					}
+					if(bool) {
+						$.ajax({
+							type: 'post',
+							url: '',
+							dataType: 'json',
+							data: data,
+							success: function(d) {
+								if(d.status == 'nopass') { //手机号码不存在
+									layer.alert(d.message);
+								} else if(d.status == 'pass') { //手机号码存在
+									if(status == "add") {
+										if(userListLength < 1) {
+											$(".address-list").append(resData);
+										}
+									} else {
+										$(".address-li").replaceWith(resData);
+									}
+									fixedClose(_this);
+								}
+							}
+						});
+					}
+				})
+
+				function render(goodsMan, goodsDetailAddress, goodsAddress, goodsPhone, defaultVal, defaultValstr) {
+					if(defaultVal) {
+						defaultValstr = '<a href="javascript:void(0)" class="default-link default-address"  data-id = "2345">默认地址</a>';
+					} else {
+						defaultValstr = '<a href="javascript:void(0)" class="default-link"  data-id = "1245">设为默认</a>';
+					}
+					var resData = '<li>' +
+						'<div class="white-man">收货人：<span>' + goodsMan + '</span></div>' +
+						'<div class="white-address">收货地址：<span>' + goodsAddress + '</span></div>' +
+						'<div class="white-detail-address">' +
+						'<div class = "goodsAddressLabel">详细地址：</div>' +
+						'<span>' + goodsDetailAddress + '</span>' +
+						'</div>' +
+						'<div class="white-phone">手机：<span>' + goodsPhone + '</span></div>' +
+						'<div class="white-link">' +
+						defaultValstr +
+						'<a href="javascript:void(0)" class="white-edit">编辑</a>' +
+						'<div class="fixed-content fixed-content2">' +
+						'<a href="javascript:void(0)" class="fixed-close"><img src="images/fix-close.png" /></a>' +
+						'<div class="fixed-title">编辑收货地址</div>' +
+						'<table class="fixed-goods" border="0" cellspacing="0" cellpadding="0">' +
+						'<tr>' +
+						'<td class="col1"><label>收货人：</label></td>' +
+						'<td><input type="text" name="goodsMan" class="goodsMan" value="' + goodsMan + '" placeholder="请输入收货人" maxlength="25"  /></td>' +
+						'</tr>' +
+						'<tr>' +
+						'<td class="col1"><label>收货地址：</label></td>' +
+						'<td><form class="form-inline">' +
+						'<div id="distpicker">' +
+						'<div class="form-group">' +
+						'<div style="position: relative;">' +
+						'<input type="text" name="goodsAddress" readonly class="goodsAddress form-control" value="' + goodsAddress + '" data-toggle="city-picker" readonly placeholder="请输入收货地址" />' +
+						'</div>' +
+						'</div>' +
+						'</div>' +
+						'</form></td>' +
+						'</tr>' +
+						'<tr>' +
+						'<td class="col1"><label>详细地址：</label></td>' +
+						'<td>' +
+						'<textarea name="goodsDetailAddress" class="goodsDetailAddress" rows="5" cols="" placeholder="请输入详细地址">' + goodsDetailAddress + '</textarea>' +
+						'</td>' +
+						'</tr>' +
+						'<tr>' +
+						'<td class="col1"><label>手机号码：</label></td>' +
+						'<td><input type="text" name="goodsPhone" class="goodsPhone" value="' + goodsPhone + '" placeholder="请输入手机号码" maxlength="11" /></td>' +
+						'</tr>' +
+						'</table>' +
+						'<a class="white-add white-save" href="javascript:void(0)">' +
+						'保&nbsp;&nbsp;&nbsp;存'
+					'</a>' +
+					'</div>' +
+					'</div>' +
+					'</li>';
+					'use strict';
+					return resData;
+				}
+
+				function verify(goodsMan, goodsDetailAddress, goodsAddress, goodsPhone) {
+					var bool = true;
+					if(!goodsDetailAddress.match(/^[\s\S]{5,120}$/)) {
+						layer.alert("地址长度为5-120个字符");
+						bool = false;
+					}
+					if(!goodsPhone.match(/^(13[0-9]|14[0-9]|15[0-9]|18[0-9]|17[0-9])\d{8}$/)) {
+						layer.alert("手机号码格式错误");
+						bool = false;
+					}
+					if(goodsPhone == "") {
+						layer.alert("请填写手机号码");
+						bool = false;
+					}
+					if(goodsDetailAddress == "") {
+						layer.alert("请填写详细收货地址");
+						bool = false;
+					}
+					if(goodsAddress == "") {
+						layer.alert("请填写收货地址");
+						bool = false;
+					}
+					if(goodsMan == "") {
+						layer.alert("请填写收货人");
+						bool = false;
+					}
+					return bool;
+				}
+
+				function fixedClose(obj) {
+					if(obj.parents(".fixed-content").hasClass("fixed-content2")) {
+						obj.parents(".fixed-content2").hide();
+					} else {
+						obj.parents(".white-fixed1").hide();
+					}
+				}
+				//增加
+				window.onload = function() {
+					var canvas = $('#canvas')[0],
+						cxt = canvas.getContext('2d'),
+						arcs = [0, 24, 48, 72],
+						step,
+						startA = 0,
+						startAngle = startA + Math.PI * 3 / 2,
+						endAngle,
+						add = Math.PI / 36,
+						x = 50,
+						y = 50,
+						radius = 45,
+						animation_interval = 20,
+						n,
+						varName;
+
+					function actiondo() {
+						step = 1;
+						varName = setInterval(animation, animation_interval);
+					};
+
+					var animation = function() {
+						if(step <= n) {
+							endAngle = startAngle + add;
+							drawArc(startAngle, endAngle);
+							startAngle = endAngle;
+							step++;
+						} else {
+							clearInterval(varName);
+						}
+
+					};
+
+					function drawArc(s, e) {
+						cxt.beginPath();
+						cxt.arc(x, y, radius, s, e, false);
+						cxt.strokeStyle = '#d5be49';
+						cxt.lineWidth = 5;
+						cxt.stroke();
+					};
+
+					$.ajax({
+						url: 'vip/viplevel',
+						type: 'POST',
+						data: '',
+						success: function(index) {
+							$("#head-img").attr("src", "asset/images/vip" + index + ".png");
+							var indexs = parseInt(index) - 1;
+							n = arcs[indexs];
+							actiondo()
+						},
+						error: function(err) {
+							$("#head-img").attr("src", "http://www.gftp2p.com/asset/images/test.png");
+							console.log(err.status)
+						}
+					});
+				}
+			})
+		</script>
+	</body>
+
+</html>

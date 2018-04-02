@@ -1,0 +1,40 @@
+.w1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+body {
+	background: #fff;
+}
+
+.bread p {
+	line-height: 50px;
+}
+
+.bread p .bread-third {
+	color: #ea544a;
+}
+
+#header,
+#footer {
+	min-width: 1200px;
+}
+
+.layout {
+	width: 1200px!important;
+}
+
+.fix:after {
+	content: " ";
+	display: table;
+}
+
+.fix:after {
+	clear: both;
+}
+.section div:after,
+.section ul:after,
+.section li:after {
+	content: '';
+	display: table;
+	clear: both;
+}

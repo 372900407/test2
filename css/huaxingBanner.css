@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Microsoft Yahei, sans-serif;
+}
+
+html {
+	font-size: 14px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+}
+
+button {
+	transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-webkit-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
+}
+
+button:hover {
+	background: #008693;
+}
+
+button,
+select {
+	border: 0;
+}
+
+input,
+textarea,
+select,
+a,
+button {
+	outline: none;
+	font-family: "Microsoft Yahei", "SimSun";
+}
+
+input,
+textarea {
+	background-color: transparent;
+	border: 0;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+}
+
+div,
+ul,
+li {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	*zoom: 1;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: #c22c31;
+}
+
+[class$="left"] {
+	float: left;
+}
+
+[class$="right"] {
+	float: right;
+}
+
+img {
+	width: 100%;
+	border: 0;
+	vertical-align: top;
+}
+
+div:after,
+ul:after,
+li:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.fix:before,
+.fix:after {
+	content: " ";
+	display: table;
+}
+
+.fix:after {
+	clear: both;
+}
+.huaxing-bg{
+	width: 100%;
+	background: url(../images/newCopyRight/huaxingBanner/bg.jpg) no-repeat top center;
+	min-height: 1031px;
+	padding-top: 618px;
+}
+.section-title{
+	width: 406px;
+	height: 72px;
+	margin: 0 auto;
+}
+.section1-title{
+	background: url(../images/newCopyRight/huaxingBanner/huaxing-stitle.png) no-repeat center center;
+	background-size:contain ;
+}
+.huaxing-container{
+	width: 1063px;
+	margin: 0 auto;
+}
+.section1{
+	width: 100%;
+	height: 497px;
+	background: url(../images/newCopyRight/huaxingBanner/section1.jpg) no-repeat center center;
+	background-size:contain ;
+	margin-top: 37px;
+}
+.section{
+	width: 100%;
+	background: url(../images/newCopyRight/huaxingBanner/section-bg.jpg) no-repeat center center;
+	background-size:100% 100%;
+}
+.section2{
+	min-height: 587px;
+	margin-top: 30px;
+	padding: 73px 58px;
+}
+.section2-top,.section2-bottom{
+	width: 100%;
+}
+.section2-bottom{
+	margin-top: 64px;
+}
+.section2-top>*{
+	float: left;
+}
+.section2-bottom>*{
+	float: right;
+}
+.textcon1-title{
+	font-family: "宋体";
+	font-size: 36px;
+	color: #333333;
+	line-height: 100%;
+	margin-bottom: 21px;
+}
+.textcon1-con{
+	width: 658px;
+	word-break: break-all;
+	line-height: 28px;
+	font-size: 18px;
+	color: #333;
+}
+.section2-img{
+	width: 176px;
+	height: 182px;
+	background: url(../images/newCopyRight/huaxingBanner/text1-img.png) no-repeat center center;
+	background-size:contain ;
+	margin-left: 71px;
+}
+.section2-img2{
+	width: 200px;
+	height: 178px;
+	background: url(../images/newCopyRight/huaxingBanner/text2-img.png) no-repeat center center;
+	background-size:contain ;
+	margin-right: 43px;
+}
+.section3-title{
+	background: url(../images/newCopyRight/huaxingBanner/huaxing-stitle2.png) no-repeat center center;
+	background-size:contain ;
+	margin-top: 42px;
+}
+.section3{
+	min-height: 496px;
+	margin-top: 31px;
+	padding: 56px 72px;
+}
+.section3-img{
+	width: 61px;
+	height: 61px;
+	background: url(../images/newCopyRight/huaxingBanner/section3-group.png) no-repeat;
+	background-position:6px 0;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.section3-text{
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.section3-list>li{
+	float: left;
+	width: 146px;
+	margin-right: 230px;
+	margin-bottom: 37px;
+}
+.li-last{
+	margin-right: 0!important;
+}
+.section3-img2{
+	background-position:51.4% 0;
+}
+.section3-img3{
+	background-position:right 0 ;
+}
+.section3-img4{
+	background-position:6px bottom ;
+}
+.section3-img5{
+	background-position:51.6% bottom;
+}
+.section3-img6{
+	background-position:right bottom ;
+}
+.section3-detail{
+	width: 933px;
+	margin: 0 auto;
+	line-height: 29px;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #333333;
+}
+.section4-title{
+	background: url(../images/newCopyRight/huaxingBanner/huaxing-stitle3.png) no-repeat center center;
+	background-size:contain ;
+	margin-top: 42px;
+}
+.section4{
+	min-height: 398px;
+	margin-top: 35px;
+	padding: 66px 72px;
+	padding-bottom: 36px;
+}
+.section4-content{
+	width: 920px;
+	height: 119px;
+	background: url(../images/newCopyRight/huaxingBanner/section4-content.png) no-repeat center center;
+	background-size:contain ;
+	margin: 0 auto;
+}
+.section4-href{
+	width: 392px;
+	height: 112px;
+	background: url(../images/newCopyRight/huaxingBanner/huaxingBannner-btn.png) no-repeat center center;
+	background-size:contain ;
+	margin: 0 auto;
+	display: block;
+	margin-top: 63px;
+}
+.footer-text1{
+	font-size: 20px;
+	color: #fff;
+	line-height: 100%;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.footer-text2{
+	font-size: 16px;
+	color: #fff;
+	line-height: 100%;
+	text-align: center;
+}
+.footer-href{
+	width: 182px;
+	height: 54px;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 13px;
+	margin-top: 50px;
+}
+.footer-div{
+	padding-bottom: 46px;
+}

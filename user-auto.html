@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="zh-cmn-Hans">
+
+		<meta charset="UTF-8">
+
+		<title>[国富通]自动投标</title>
+
+		<meta name="keywords" content="国富通,国富通P2P,网上投资,投资理财,网络借贷, 融资借贷 ,网上理财,安全理财">
+
+		<meta name="description" content="国富通—安全，专业的网络借款、理财平台。提供便捷、安全、低门槛的个人理财和抵押、信用贷款服务。国富通以稳健的风控和专业的团队，为投资者提供年化收益高达18-24%的网上理财服务。对接投资信息与融资需求，致力于建设中国唯一高效互联网金融工具。">
+
+		<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="css/commonV3.css">
+		<link rel="stylesheet" type="text/css" href="css/accountV3.css" />
+		<link rel="stylesheet" type="text/css" href="css/skin/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/user-auto.css" />
+		<script src="js/vendor/modernizr.custom.31843.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<!--是否为用户中心-->
+		<input type="hidden" name="isPerson" id="isPerson" value="true" />
+		<!--是否绑定手机-->
+		<input type="hidden" name="isPhone" id="isPhone" value="true" />
+		<!--是否实名-->
+		<input type="hidden" name="isAuthen" id="isAuthen" value="false" />
+		<!--是否绑定银行卡-->
+		<input type="hidden" name="isBank" id="isBank" value="false" />
+		<header id="header">
+
+			<div class="header-top">
+
+				<div class="layout clear-fix">
+
+					<p class="hot-line">客服热线：4000-360-995（工作日9:00-18:00）</p>
+
+					<ul class="followus">
+
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns qq">
+								<div class="social-content" style="display: none;">
+									<p class="social-title">国富通官方QQ群</p>
+									<p>官方一群：339103562</p>
+									<p>官方二群：229094780</p>
+								</div>
+							</a>
+
+						</li>
+						<li>
+
+							<a href="javascript:void(0)" class="icon-sns weixin">
+
+								<div class="social-content" style="display: none;">
+
+									<p class="social-title">扫描关注微信公众号</p>
+
+									<p><img src="images/wechat2.png"></p>
+
+								</div>
+
+							</a>
+
+						</li>
+						<li>
+
+							<a href="http://weibo.com/gftp2p" target="_blank" class="icon-sns weibo"></a>
+
+						</li>
+
+					</ul>
+					<ul class="header-top-r">
+
+						<li class="lists" id="list">
+							<a href="javascript:void(0)" style="margin-right: 15px;">尊敬的【150****8297】欢迎您 !</a>
+							<a class="lists-l" href="javascript:void(0)">安全退出</a>
+							<!--<a class="lists-l" id="name-list" href="http://www.gftbank.cn/login.html">登录 </a>-->
+						</li>
+						<!--<li class="lists">
+							<a class="lists-l" href="/reg.html">注册</a>
+						</li>-->
+						<li class="lists list3">
+							<a href="javascript:void(0)">手机APP
+								<div class="app-banner">
+									<div class="banner-img">
+										<img src="images/wechatApp.png" />
+									</div>
+									<div class="banner-detail">
+										app客户端下载
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="lists ">
+							<a href="/aboutus.html">帮助中心</a>
+						</li>
+						<li class="lists list-last">
+							<a href="/guide.html">新手指引</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+			<div class="layout header-logoWrap">
+
+				<div class="header-navWrap">
+
+					<nav class="header-nav">
+						<ul>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="index.html">首页</a>
+							</li>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="/invest.html">我要投资</a>
+							</li>
+
+							<li class="lists  ">
+								<a class="lists-l lists-dot" href="safety.html">安全措施</a>
+							</li>
+
+							<li class="lists ">
+								<a class="lists-l lists-dot" href="/safety.html">信息披露</a>
+							</li>
+
+							<li class="lists current ">
+								<a class="lists-l" href="http://www.gftbank.cn/login.html">我的账户</a>
+							</li>
+
+						</ul>
+
+					</nav>
+
+				</div>
+
+				<h1>
+
+            <a href="/"><img src="images/logo.png" title="国富通" alt="国富通logo"></a>
+
+        </h1>
+			</div>
+		</header>
+		<div class="user-section">
+			<div class="layout">
+				<div class="user-nav">
+					<div class="nav-list1">
+						<div class="nav-icon">
+							<img src="images/newCopyRight/user/74x74.png" />
+						</div>
+						<div class="nav-person">
+							<div class="person-name">您好！131****0485</div>
+							<!--images/newCopyRight/user/vip1.png是普通会员路径；images/newCopyRight/user/vip2.png是特权会员-->
+							<div class="person-vip">会员等级：VIP
+								<div class="vip-icon"><img src="images/newCopyRight/user/vip1.png" /></div>
+							</div>
+						</div>
+					</div>
+					<!--跳转到账户设置页面-->
+					<ul class="nav-list2">
+						<li>
+							<a href="javascript:void(0)" class="nav-status1"></a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="nav-status2"></a>
+						</li>
+						<li class="li-last">
+							<a href="javascript:void(0)" class="nav-status3"></a>
+						</li>
+					</ul>
+					<div class="nav-line"></div>
+					<ul class="nav-lists">
+						<li class="list-col current">
+							<a class="col-link col-acc" href="/user-index.html">账户总览</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-mng" href="javascript:void(0)">账户设置</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ive" href="javascript:void(0)">我的投资</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-ivi" href="javascript:void(0)">我的卡券</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-quan" href="javascript:void(0)">邀请好友</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-msg" href="javascript:void(0)">消息中心</a>
+						</li>
+						<li class="list-col ">
+							<a class="col-link col-loan" href="javascript:void(0)">我的借款</a>
+						</li>
+					</ul>
+				</div>
+				<div class="user-content " id="user-content1">
+					<input type="hidden" name="openid" id="openid" value="12312" />
+					<div class="auto-title">设置自动投标</div>
+					<div class="auto-layer">
+						<div class="auto-text">自动投资优先选择优质短期稳定标的,傻瓜式理财,坐享收益!让资金不再闲置!</div>
+						<div class="auto-content">
+							<a class="auto-status " data-id="0" href="javascript:void(0)">
+								<span class="href-left">开</span>
+								<span class="href-right">关</span>
+								<div class="auto-btn"></div>
+							</a>
+							<a class="edit-set" href="javascript:void(0)">修改设置</a>
+							<label>懒人自动投标（普通标的）</label>
+							<div class="auto-artcle">
+								<label>投资期限：</label><span id = "monthstar">3月</span> ——  <span id = "monthend">6月</span><br />
+								<label>投标种类：</label><span class = "user-way">尊享计划</span><br />
+								<label>账户保留资金：</label><span id = "user-money2">5000</span>元
+							</div>
+							<span class="auto-care">当前开通懒人自动投标人数17人</span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="user-content2" id="user-content2">
+						<div class="auto-title">设置自动投标<span style="margin-left: 48px;">账户余额：204141.00元</span></div>
+						<a class="fixed-close1" href="javascript:void(0)"></a>
+						<div class="auto-layer">
+							<div class="auto-content auto-content1">
+								<div class="auto-label3">
+									<label>投资期限：</label>
+									<select name="monthstar">
+										<option value="1">不限</option>
+										<option value="1" >1月</option>
+										<option value="3">3月</option>
+										<option value="6">6月</option>
+										<option value="9">9月</option>
+										<option value="12">12月</option>
+									</select>
+									<span style="width: auto;font-size: 18px;color:#999999;margin-left: 10px;line-height: 30px;">-</span>
+									<select name="monthend">
+										<option value="12">不限</option>
+									</select>
+								</div>
+								<div class="auto-label3">
+									<label>投标种类：</label>
+									<div class="radio-group">
+										<input type="checkbox" name="type" id="way1" value="薪火计划" checked="">
+										<label for="way1">薪火计划</label>
+									</div>
+									<div class="radio-group" style="margin-left: 45px;">
+										<input type="checkbox" name="type" id="way2" value="散标直投">
+										<label for="way2">散标直投</label>
+									</div>
+								</div>
+								<div class="auto-label3">
+									<label>预期年化：</label>
+									<div class="auto-normal">8% - 15% （以实际年化收益为准）</div>
+								</div>
+								<div class="auto-label3">
+									<label>账户保留资金：</label>
+									<input type="number" name="user-money" id="user-money" value="" onkeyup='this.value=this.value.replace(/\./gi,"")' />
+									<span>元</span>
+								</div>
+							</div>
+							<a class = "auto-save" href = "javascript:void(0)">保存设置并开启</a>
+							<ul class = "auto-rule">
+								<li>温馨提示：</li>
+								<li>1、每个借款标发出后，将根据所设置条件进行筛选，符合条件且账户可用金额超过该借款标最低投标额的自动投标规则将根据排名的前后顺序依次投标。</li>
+								<li>2、系统根据排队号处理用户自动投资规则，匹配到用户，同时规则符合条件，则进行自动投资</li>
+								<li>3、当系统处理自动投资时，账户实际余额＜设置的金额，按照账户实际余额进行操作</li>
+								<li>4、当系统处理自动投资时，设置的投资金额＞标的剩余金额，则按照标的剩余金额进行投资，剩余的资金返还至用户的账户余额</li>
+								<li>5、投资成功后，启用规则变为备用规则，备用规则变为启用规则</li>
+								<li>6、规则从备用到启用后会重新排队</li>
+								<li>7、系统会按照您的排队号按序进行自动投资</li>
+								<li>8、个人银行账号必须填写正确,否则您的提现资金将存在风险；</li>
+								<li>9、每张银行卡只能绑定单个账户，请勿重复绑定。</li>
+							</ul>
+						</div>
+					</div>
+
+			</div>
+		</div>
+		<!--尾部-->
+		<footer id="footer">
+			<div class="footer-content">
+				<div class="layout footer-frame clear-fix">
+					<div class="footer-banner1 footer-banner">
+						<div class="footer-title1 footer-title">客服热线</div>
+						<div class="footer-banner1-text">
+							客服热线400-360-995（工作时间 9:00-18:00）<br/> 客服邮箱（kefu@yooli.com）
+							<br/> 广东省深圳市福田区彩田路瀚森大厦15A
+							<br/>
+						</div>
+						<a class="resume-btn" href="javascript:void(0)"></a>
+					</div>
+					<div class="footer-banner2 footer-banner">
+						<ul>
+							<li class="footer-title">
+								信息披露
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									平台公告
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									媒体报道
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									诚聘英才
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									联系我们
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li class="footer-title">
+								安全保障
+							</li>
+							<li>
+								<a href="safety.html#section6">
+									法律保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section2">
+									实力保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section5">
+									技术保障
+								</a>
+							</li>
+							<li>
+								<a href="safety.html#section3">
+									资金保障
+								</a>
+							</li>
+						</ul>
+						<ul class="li-last">
+							<li class="footer-title">
+								帮助中心
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									常见问题
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									新手指引
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">
+									借款流程
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer-banner3 footer-banner">
+						<li>
+							<div class="app-ewm ewm">
+								<img src="images/newCopyRight/app.jpg" />
+							</div>
+							<div class="ewm-detail">APP客户端下载</div>
+						</li>
+						<li class="li-last">
+							<div class="wechat-ewm ewm">
+								<img src="images/newCopyRight/wechat.jpg" />
+							</div>
+							<div class="ewm-detail">国富通微信公众号</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="footerlogo layout">
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo1.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo2.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo3.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo4.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo5.png" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">
+							<img src="images/newCopyRight/footerLogo6.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="layout footer-copyright">
+				<p class="footer-cent">
+					<a class="cent1" href="http://www.miitbeian.gov.cn" target="_blank">Copyright © 2014-2015备案号：粤ICP备14038056号-1</a>
+					<a href="javascript:void(0)" class="cent2">深圳前海国富通电子商务有限公司 </a>
+				</p>
+			</div>
+		</footer>
+		<!--尾部-->
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/require.js" data-main="js/app/user-auto"></script>
+
+</html>

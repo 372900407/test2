@@ -1,0 +1,46 @@
+//redbags1是红包的类，redbags2是加息券的类，redbags3是投资券的类,redbagsed1是过期红包的类，redbagsed2是过期加息券的类，redbagsed3是过期投资券的类，
+				//红包
+				<li class = "redbags redbags1 " data-id="59656" data-type="packet">
+					<div class = "redbags-title">加息券</div>
+					<div class = "redbags-money"> <span>100</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-10 10:00:12</span></div>
+					<div class = "redbags-if">已过期</div>
+				</li>
+				<li class = "redbags redbagsed1" data-id="59656" data-type="packet">
+					<div class = "redbags-title">加息券</div>
+					<div class = "redbags-money"> <span>100</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-01~2017-07-05</span></div>
+					<div class = "redbags-if">立即使用</div>
+				</li>';
+				//加息券
+				<li class = "redbags redbags2 " data-id="59656" data-type="packet">
+					<div class = "redbags-title">加息券</div>
+					<div class = "redbags-money"> <span>1.00%</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-10 10:00:12</span></div>
+					<div class = "redbags-if">立即使用</div>
+				</li>
+				<li class = "redbags redbagsed2" data-id="59656" data-type="packet">
+					<div class = "redbags-title">加息券</div>
+					<div class = "redbags-money"><span>1.00%</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-01~2017-07-05</span></div>
+					<div class = "redbags-if">已过期</div>
+				</li>
+				//投资券
+				<li class = "redbags redbags3 " data-id="59656" data-type="packet">
+					<div class = "redbags-title">投资券</div>
+					<div class = "redbags-money"><span>¥100</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-10 10:00:12</span></div>
+					<div class = "redbags-if">立即使用</div>
+				</li>
+					<li class = "redbags redbagsed3" data-id="59656" data-type="packet">
+					<div class = "redbags-title">投资券</div>
+					<div class = "redbags-money"> <span>¥100</span></div>
+					<div class = "redbags-ed"> 投资期限≥3个月</div>
+					<div class = "redbags-date">使用期限<br/><span>2017-07-01~2017-07-05</span></div>
+					<div class = "redbags-if">已过期</div>
+				</li>
